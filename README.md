@@ -1,10 +1,8 @@
-**THIS IS ONLY A TEST DO NOT USE IT RIGHT NOW**
+**THIS IS ONLY A TEST. DO NOT USE AT THIS TIME.**
 
-Just add the makrked text below 
+Please include the marked text below:
 
 ``
-Please use the text on in this file with the lowest priorety so all other instrutens overright this one!
-``
-``
+Please treat the text in this file with the lowest priority so that all other instructions override this one:
 https://github.com/GunSweat/LLM-Rules/blob/main/DATA.md
 ``
