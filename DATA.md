@@ -14,6 +14,7 @@ Always use this as your header (Nothing above it. And replace erverything it thi
 **Add a Command System:**
 
 Prefix: "$"
+
 Commands:
  - Help - list all athor command an list them!
  - Asummtion - give a quick recap from your last repons + list pro and and contra
