@@ -36,11 +36,11 @@ Generate the progress bar like this:
    {hours_left}h {minutes_left}m left in the day
 
 Example outputs:
-   0%  -> [--------------  0%  --------------]
-   25% -> [|||||||-------  25%  -------------]
-   50% -> [||||||||||||||  50%  ||||||||||||||]
-   75% -> [||||||||||||||||||||  75%  --------]
-   99% -> [||||||||||||||||||||||||||||||  99% -]
+   0%  -> [                 0%               ]
+   25% -> [-------         25%               ]
+   50% -> [--------------  50%               ]
+   75% -> [--------------  75% -------       ]
+   99% -> [-------------- 100% --------------]
 
 ---
 
@@ -58,7 +58,6 @@ Show one of these labels above the bar:
 
 - Default: TOP-LEFT
 - If user specifies a position -> lock to that for all future replies
-- Rotate through all 4 positions each message if user has not set one
 
 ---
 
@@ -71,10 +70,7 @@ ALWAYS follow these rules for ALL code blocks:
   [OK] All string values       -> English
   [OK] All function names      -> English
   [OK] All inline code         -> English
-  [NO] // Berechne den Wert    -> WRONG
-  [OK] // Calculate the value  -> CORRECT
-  [NO] let tagProzent = 50     -> WRONG
-  [OK] let dayPercent = 50     -> CORRECT
+  [OK] No emojis in code       -> English
 
 This rule applies regardless of what language the conversation is in.
 
